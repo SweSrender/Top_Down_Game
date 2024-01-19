@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - maps
+  - Player
   - 
   - 
   - 
@@ -38,9 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Maps
+    uniqueID: 272504703
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: maps
+  - name: Player
     uniqueID: 132346499
     locked: 0

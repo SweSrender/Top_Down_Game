@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 20764741}
   - component: {fileID: 20764740}
   - component: {fileID: 20764742}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: controlroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ Transform:
   m_LocalScale: {x: 14.362, y: 15.109, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &20764742
 Rigidbody2D:
@@ -227,6 +227,89 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &93580813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 93580814}
+  - component: {fileID: 93580816}
+  - component: {fileID: 93580815}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &93580814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93580813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 554542103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &93580815
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93580813}
+  m_Enabled: 1
+--- !u!20 &93580816
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93580813}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 26.991467
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &255845844
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +352,7 @@ Transform:
   m_Children:
   - {fileID: 1727616295}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &262850072
 GameObject:
@@ -282,7 +365,7 @@ GameObject:
   - component: {fileID: 262850074}
   - component: {fileID: 262850073}
   - component: {fileID: 262850075}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: balcony1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +435,7 @@ Transform:
   m_LocalScale: {x: 16.010069, y: 8.9091, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &262850075
 Rigidbody2D:
@@ -386,7 +469,7 @@ GameObject:
   - component: {fileID: 454290775}
   - component: {fileID: 454290774}
   - component: {fileID: 454290776}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +539,7 @@ Transform:
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &454290776
 Rigidbody2D:
@@ -490,9 +573,9 @@ GameObject:
   - component: {fileID: 554542103}
   - component: {fileID: 554542102}
   - component: {fileID: 554542104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: headmodel
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -556,11 +639,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554542101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 6.79, y: -3.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 93580814}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &554542104
 CharacterController:
@@ -591,7 +675,7 @@ GameObject:
   - component: {fileID: 659039257}
   - component: {fileID: 659039256}
   - component: {fileID: 659039258}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CORIDOR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +745,7 @@ Transform:
   m_LocalScale: {x: 1.3112, y: 1.2586, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &659039258
 Rigidbody2D:
@@ -813,7 +897,7 @@ GameObject:
   - component: {fileID: 1891521703}
   - component: {fileID: 1891521702}
   - component: {fileID: 1891521704}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Reactor room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +967,7 @@ Transform:
   m_LocalScale: {x: 2.6748, y: 2.5323, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1891521704
 Rigidbody2D:
@@ -917,7 +1001,7 @@ GameObject:
   - component: {fileID: 1971838064}
   - component: {fileID: 1971838063}
   - component: {fileID: 1971838065}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: balcony2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -987,7 +1071,7 @@ Transform:
   m_LocalScale: {x: 8.320871, y: 8.427072, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1971838065
 Rigidbody2D:
@@ -1021,7 +1105,7 @@ GameObject:
   - component: {fileID: 1999898005}
   - component: {fileID: 1999898004}
   - component: {fileID: 1999898006}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Lobby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1091,7 +1175,7 @@ Transform:
   m_LocalScale: {x: 2.6231, y: 2.3604, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1999898006
 Rigidbody2D:
